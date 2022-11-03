@@ -8,7 +8,7 @@ $(window).on('load', function () {
         case "splash":
             setTimeout(function () {
                 window.location.replace("landing.html");
-            }, 4000)
+            }, 1000)
             break;
 
         case "landing":
