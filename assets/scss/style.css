@@ -13118,8 +13118,8 @@ linearGradient stop:last-child {
   height: 80px;
 }
 .circular-loader div {
-  -webkit-animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-          animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  -webkit-animation: lds-roller 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+          animation: lds-roller 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   transform-origin: 40px 40px;
 }
 .circular-loader div:after {
@@ -13133,64 +13133,64 @@ linearGradient stop:last-child {
   margin: -4px 0 0 -4px;
 }
 .circular-loader div:nth-child(1) {
-  -webkit-animation-delay: -0.036s;
-          animation-delay: -0.036s;
+  -webkit-animation-delay: -0.010s;
+          animation-delay: -0.010s;
 }
 .circular-loader div:nth-child(1):after {
   top: 63px;
   left: 63px;
 }
 .circular-loader div:nth-child(2) {
-  -webkit-animation-delay: -0.072s;
-          animation-delay: -0.072s;
+  -webkit-animation-delay: -0.050s;
+          animation-delay: -0.050s;
 }
 .circular-loader div:nth-child(2):after {
   top: 68px;
   left: 56px;
 }
 .circular-loader div:nth-child(3) {
-  -webkit-animation-delay: -0.108s;
-          animation-delay: -0.108s;
+  -webkit-animation-delay: -0.90s;
+          animation-delay: -0.90s;
 }
 .circular-loader div:nth-child(3):after {
   top: 71px;
   left: 48px;
 }
 .circular-loader div:nth-child(4) {
-  -webkit-animation-delay: -0.144s;
-          animation-delay: -0.144s;
+  -webkit-animation-delay: -0.110s;
+          animation-delay: -0.110s;
 }
 .circular-loader div:nth-child(4):after {
   top: 72px;
   left: 40px;
 }
 .circular-loader div:nth-child(5) {
-  -webkit-animation-delay: -0.18s;
-          animation-delay: -0.18s;
+  -webkit-animation-delay: -0.1s;
+          animation-delay: -0.1s;
 }
 .circular-loader div:nth-child(5):after {
   top: 71px;
   left: 32px;
 }
 .circular-loader div:nth-child(6) {
-  -webkit-animation-delay: -0.216s;
-          animation-delay: -0.216s;
+  -webkit-animation-delay: -0.166s;
+          animation-delay: -0.166s;
 }
 .circular-loader div:nth-child(6):after {
   top: 68px;
   left: 24px;
 }
 .circular-loader div:nth-child(7) {
-  -webkit-animation-delay: -0.252s;
-          animation-delay: -0.252s;
+  -webkit-animation-delay: -0.192s;
+          animation-delay: -0.192s;
 }
 .circular-loader div:nth-child(7):after {
   top: 63px;
   left: 17px;
 }
 .circular-loader div:nth-child(8) {
-  -webkit-animation-delay: -0.288s;
-          animation-delay: -0.288s;
+  -webkit-animation-delay: -0.208s;
+          animation-delay: -0.208s;
 }
 .circular-loader div:nth-child(8):after {
   top: 56px;
@@ -15000,9 +15000,9 @@ a.card {
   margin: 0 auto;
 }
 .logo-splash-rounded img {
-  width: 100px;
+  width: 80px;
   margin-bottom: 15px;
-  border-radius: 35px;
+  border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -15014,9 +15014,9 @@ a.card {
   line-height: 44px;
 }
 .logo-small img {
-  width: 40px;
+  width: 80px;
   margin: 0;
-  border-radius: calc(var(--oneuiux-rounded) - 8px);
+  border-radius: calc(var(--oneuiux-rounded) - 20px);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
@@ -15327,3 +15327,11 @@ a.card {
 .rtl ol, .rtl ul {
   padding-right: 0;
 }/*# sourceMappingURL=style.css.map */
+
+.buttons-container{
+  margin-top: 230px;
+}
+
+.scan-fun-btn{
+  font-size: 40px;
+}
